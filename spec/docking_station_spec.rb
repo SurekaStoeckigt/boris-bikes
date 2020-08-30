@@ -14,4 +14,10 @@ describe DockingStation do
     end
   end
 
+  it 'responds to bike' do
+    expect(subject).to respond_to(:bike) do
+      #it { is_expected.to respond_to(:bike) }
+    end
+  end
+
 end
